@@ -28,7 +28,7 @@ app.get("/pessoas",function(req,res){
     });
 });
 
-app.get("listar/pessoas",function(req,res){
+app.get("/listar/pessoas",function(req,res){
     connection.query('SELECT * FROM Pessoas.pessoa;', function(err, rows, fields) {
         res.json(rows);
     });
