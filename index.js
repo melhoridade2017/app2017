@@ -3,7 +3,7 @@ var mysql      = require('mysql');
 var bodyParser  = require('body-parser');
 
 var connection = mysql.createConnection({
-    host     : '54.233.161.95',
+    host     : 'localhost',
     user     : 'root',
     password : '4linux',
     database : 'Pessoas'
