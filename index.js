@@ -58,4 +58,7 @@ app.post('/inserir/pessoa', function(req,res){
             }
 });
 
-app.listen(4000);
+app.listen(3000);
+var server = app.listen(3000, function() {
+  console.log("Running in localhost:3000");
+});
